@@ -1,0 +1,13 @@
+- HEADER [0x00-0x03]
+[0x00-0x01] - 2 bytes (16bits) - uint16 - video height
+[0x02-0x03] - 2 bytes (16bits) - uint16 - video width
+
+- CONTENT [0x04-0x??]
+2 bytes (16 bits) - diff/rep
+if < 0x8000 : diff
+else : rep
+
+diff - uint8
+rep - uint8 (substract 0x8000)
+
+1 byte (8bits) - uint8 - gray shade (repeat diff times if diff)
