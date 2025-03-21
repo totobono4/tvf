@@ -1,4 +1,4 @@
-#tvf (toto video format)
+# tvf (toto video format)
 
 Here's my own file format for my experiments.
 I've created this file format to be able to easily manipulate videos at a assembly/hardware level, basically I've created it to output Bad Apple in the "Turing Complete" game in the first place.
